@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".controlDeviceVolume.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alarm"
+        android:textSize="16sp" />
+
+    <androidx.appcompat.widget.AppCompatSeekBar
+        android:id="@+id/alarmSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Media"
+        android:layout_marginTop="6dp"
+        android:textSize="16sp" />
+
+    <androidx.appcompat.widget.AppCompatSeekBar
+        android:id="@+id/mediaSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voice Call"
+        android:layout_marginTop="6dp"
+        android:textSize="16sp" />
+
+    <androidx.appcompat.widget.AppCompatSeekBar
+        android:id="@+id/voiceCallSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ring"
+        android:layout_marginTop="6dp"
+        android:textSize="16sp" />
+
+    <androidx.appcompat.widget.AppCompatSeekBar
+        android:id="@+id/ringSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notifications"
+        android:layout_marginTop="6dp"
+        android:textSize="16sp" />
+
+    <androidx.appcompat.widget.AppCompatSeekBar
+        android:id="@+id/notificationsSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="System Sounds"
+        android:layout_marginTop="6dp"
+        android:textSize="16sp" />
+
+    <androidx.appcompat.widget.AppCompatSeekBar
+        android:id="@+id/systemSoundsSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DTMF"
+        android:layout_marginTop="6dp"
+        android:textSize="16sp" />
+
+    <androidx.appcompat.widget.AppCompatSeekBar
+        android:id="@+id/dtmfSeekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Accessibility Sounds"
+        android:layout_marginTop="6dp"
+        android:textSize="16sp" />
+
+    <androidx.appcompat.widget.AppCompatSeekBar
+        android:id="@+id/accessibilitySeekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        />
+
+</LinearLayout>
